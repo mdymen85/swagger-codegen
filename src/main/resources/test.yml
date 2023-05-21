@@ -1,0 +1,53 @@
+---
+openapi: 3.0.0
+info:
+  title: Test API
+  version: 1.0.0
+  description: Test API implemented with OpenAPI Codegen
+tags:
+  - name: "Test"
+paths:
+  /v1/test/{number}:
+    get:
+      summary: this is summary
+      tags:
+        - "Test tag"
+      description: simple get
+      operationId: testGet
+      parameters:
+        - in: path
+          name: number
+          description: "number test tag"
+          required: true
+          schema:
+            type: integer
+      responses:
+        200:
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: integer
+                properties:
+                  message:
+                    type: string
+        400:
+          description: The required parameter is missing or invalid
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Invalid parameters"
+        404:
+          description: Route not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: "Route not found"

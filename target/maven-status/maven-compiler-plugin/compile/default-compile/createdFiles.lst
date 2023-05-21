@@ -1,0 +1,15 @@
+com/example/codegen/integration/api/TestTagApi.class
+com/example/codegen/integration/model/TestGet404Response.class
+com/example/codegen/api/V1Api.class
+com/example/codegen/model/TestGet400Response.class
+com/example/codegen/api/ApiUtil.class
+com/example/codegen/TestTagApiImpl.class
+com/example/codegen/integration/model/TestGet400Response.class
+com/example/codegen/api/V1ApiController$1.class
+com/example/codegen/api/V1Api$1.class
+com/example/codegen/CodegenApplication.class
+com/example/codegen/ConfigClass.class
+com/example/codegen/api/V1ApiDelegate.class
+com/example/codegen/model/TestGet404Response.class
+com/example/codegen/V1ApiExample.class
+com/example/codegen/api/V1ApiController.class

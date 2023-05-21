@@ -1,0 +1,6 @@
+.openapi-generator-ignore
+README.md
+pom.xml
+src/main/java/com/example/codegen/integration/api/TestTagApi.java
+src/main/java/com/example/codegen/integration/model/TestGet400Response.java
+src/main/java/com/example/codegen/integration/model/TestGet404Response.java
